@@ -1,5 +1,8 @@
 # Define the building environment
 language: c
+arch:
+  - amd64
+  - ppc64le
 
 matrix:
   fast_finish: true
